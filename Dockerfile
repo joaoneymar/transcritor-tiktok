@@ -1,5 +1,5 @@
 # Usa uma versão leve do Python
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # Instala o FFmpeg (O segredo para não dar erro!)
 RUN apt-get update && \
